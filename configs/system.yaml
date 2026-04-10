@@ -1,0 +1,8 @@
+# System defaults for event replay + trade simulation (loaded by backtest engine).
+# Research scope: docs/research_charter.md — validation only; backtest is deterministic for fixed YAML + seeds.
+
+latency_seconds: 120
+threshold: 0.65
+holding_period_hours: 6
+regime_enabled: true
+slippage_model: gaussian
